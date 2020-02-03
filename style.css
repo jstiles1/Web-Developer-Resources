@@ -11,6 +11,10 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  padding-bottom: 300px;
+}
+
 .row {
   background-color: rgba(232, 234, 238, 0.9);
   border-radius: 25px;
