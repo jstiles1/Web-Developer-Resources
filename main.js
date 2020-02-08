@@ -5,7 +5,7 @@
       e.preventDefault();
 
       console.log(123);
-    }
+    };
     /*
         // Your web app's Firebase configuration
         var firebaseConfig = {
