@@ -4,7 +4,7 @@
     function submitContactForm(e) {
       e.preventDefault();
 
-      console.log('123');
+      console.log(123);
     }
     /*
         // Your web app's Firebase configuration
