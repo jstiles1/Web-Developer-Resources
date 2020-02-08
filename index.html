@@ -67,6 +67,14 @@
             Road Map</a>
         </div>
         <div class="spacing col-12">
+          <a rel="noopener noreferrer" target="_blank" href="https://stackoverflow.com/">Stack Overflow - Get answers to
+            tough questions & share knowledge</a>
+        </div>
+        <div class="spacing col-12">
+          <a rel="noopener noreferrer" target="_blank" href="https://skillcrush.com/blog/web-developer-portfolio/">HOW
+            TO CRAFT A STAND-OUT WEB DEVELOPER PORTFOLIO</a>
+        </div>
+        <div class="spacing col-12">
           <a rel="noopener noreferrer" target="_blank" href="https://www.vox.com/a/internet-maps">40 maps that explain
             the internet</a>
         </div>
@@ -136,8 +144,25 @@
     <div id="contact" class="container d-flex justify-content-center align-items-center h-100">
       <div class="row">
         <header class="text-center col-12">
-          <a href="mailto:jackstileswebdev@gmail.com?subject=Web-Dev-Resources">
-            JackStilesWebDev@gmail.com</a>
+          <form>
+            <div class="form-group">
+              <label for="contactFormName">Name</label>
+              <textarea class="form-control" id="contactFormName" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="contactFormEmail">Get in Touch With Me!</label>
+              <input type="email" class="form-control" id="contactFormEmail" placeholder="yourName@yourEmail.com">
+            </div>
+            <div class="form-group">
+              <label for="contactFromMessage">Contact me with any questions, ideas or suggestions!</label>
+              <textarea class="form-control" id="contactFormMessage" rows="3"></textarea>
+            </div>
+            <section class="text-center col-12">
+              <button type="submit" id="contactForm" class="btn btn-primary btn-xl">Submit</button>
+            </section>
+          </form>
+          <!--<a href="mailto:jackstileswebdev@gmail.com?subject=Web-Dev-Resources">
+            JackStilesWebDev@gmail.com</a>-->
 
         </header>
         <div class="spacing col-12"></div>
@@ -153,6 +178,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
+  <scipt src="main.js"></scipt>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
 
 </body>
 

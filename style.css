@@ -36,7 +36,6 @@ nav a {
 
 }
 
-
 .navbar-brand {
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
@@ -55,8 +54,10 @@ div {
 }
 
 .row {
-  background-color: rgba(253, 239, 191, .81);
-  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .81);
+  border-top: 5px solid rgba(253, 239, 191, 1);
+  border-bottom: 5px solid rgba(253, 239, 191, 1);
+  border-radius: 5px;
   padding: 12px;
 }
 
