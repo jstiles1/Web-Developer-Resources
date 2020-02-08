@@ -9,26 +9,68 @@ html {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  z-index: 2;
+  background-color: #4d2d73 !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+
+}
+
+nav a {
+  color: #fdefbf !important;
+  font-size: 1.5em;
+
+}
+
+
+.navbar-brand {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+
 }
 
 .container {
-  padding-bottom: 300px;
+  padding-top: 130px;
+  padding-bottom: 60px;
+  display: block;
+  text-align: center;
+}
+
+div {
+  padding: 2px;
 }
 
 .row {
-  background-color: rgba(232, 234, 238, 0.9);
-  border-radius: 25px;
+  background-color: rgba(253, 239, 191, .81);
+  border-radius: 20px;
   padding: 12px;
 }
 
 h1 {
   font-size: 3rem;
-  color: #3d7bee;
+  color: #9857e2;
   font-family: 'Roboto Slab', serif;
 }
 
-.spacing {
-  height: 3rem;
+a {
+  font-size: 2em;
+  padding-bottom: 10px;
+  color: rgb(4, 8, 238);
+
 }
 
 .btn {
@@ -36,6 +78,7 @@ h1 {
   border-radius: 100px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.15em;
 }
 
 .btn-xl {
@@ -45,9 +88,22 @@ h1 {
 .btn-primary {
   background-color: #4d2d73;
   border-color: #9857e2;
+  color: #fdefbf;
 }
 
 .btn-primary:hover {
   background-color: #9857e2;
   border-color: #4d2d73;
+}
+
+article {
+  font-size: 1.5em;
+  text-align: left;
+
+}
+
+#contact h2 {
+  color: #4d2d73;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
 }
