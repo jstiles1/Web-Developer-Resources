@@ -49,11 +49,9 @@
         </header>
         <div class="spacing col-12"></div>
         <section class="text-center col-12">
-
           <a href="https://mailchi.mp/c77a3aaf31de/jack_stiles_web_developer"><button class="btn btn-primary btn-xl">Get
               Them Here: $0 - $20!</button></a>
         </section>
-
       </div>
     </div>
     <div id="featured-articles" class="container d-flex justify-content-center align-items-center h-100">
@@ -143,33 +141,29 @@
     </div>
     <div id="contact" class="container d-flex justify-content-center align-items-center h-100">
       <div class="row">
-        <header class="text-center col-12">
-          <form>
+        <section class="text-center col-12">
+          <form id="contactForm">
             <div class="form-group">
               <label for="contactFormName">Name</label>
               <textarea class="form-control" id="contactFormName" rows="1"></textarea>
             </div>
             <div class="form-group">
               <label for="contactFormEmail">Get in Touch With Me!</label>
-              <input type="email" class="form-control" id="contactFormEmail" placeholder="yourName@yourEmail.com">
+              <input type="text" class="form-control" id="contactFormEmail" placeholder="yourName@yourEmail.com">
             </div>
             <div class="form-group">
-              <label for="contactFromMessage">Contact me with any questions, ideas or suggestions!</label>
+              <label for="contactFormMessage">Contact me with any questions, ideas or suggestions!</label>
               <textarea class="form-control" id="contactFormMessage" rows="3"></textarea>
             </div>
-            <section class="text-center col-12">
-              <button type="submit" id="contactForm" class="btn btn-primary btn-xl">Submit</button>
-            </section>
+            <a href="#contactFormSubmit"><button type="submit" class="btn btn-primary btn-xl"
+                id="contactFormSubmit">Submit</button></a>
           </form>
-          <!--<a href="mailto:jackstileswebdev@gmail.com?subject=Web-Dev-Resources">
-            JackStilesWebDev@gmail.com</a>-->
-
-        </header>
+        </section>
         <div class="spacing col-12"></div>
       </div>
     </div>
   </div>
-  <script src="main.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
@@ -179,9 +173,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
+  <!--The core Firebase JS SDK is always required and must be listed first-->
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js">
+  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
-<!--The core Firebase JS SDK is always required and must be listed first-- >
-   <script src = "https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js" >
-  </script>
