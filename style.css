@@ -76,10 +76,10 @@ a {
 
 .btn {
   font-weight: 700;
-  border-radius: 100px;
+  border-radius: 15px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.25em;
 }
 
 .btn-xl {
@@ -107,4 +107,62 @@ article {
   color: #4d2d73;
   font-family: 'Roboto Slab', serif;
   margin: 0;
+}
+
+#wave {
+  position: relative;
+  display: block;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: #00aeff;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#wave #waveButton {
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+}
+
+#wave:hover #waveButton {
+  background-color: #fdefbf;
+  color: #4d2d73;
+}
+
+#wave .wave {
+  position: absolute;
+  top: calc(100% + 22px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00aeff;
+  transition: 1s;
+}
+
+#wave:hover .wave {
+  top: 25px;
+}
+
+#wave .wave:before {
+  content: '';
+  position: absolute;
+  top: -22px;
+  left: 0;
+  width: 100%;
+  height: 22px;
+  background: url(wave.png);
+  animation: animate .4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 118px;
+  }
 }
