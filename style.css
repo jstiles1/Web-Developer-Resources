@@ -43,8 +43,8 @@ nav a {
 }
 
 .container {
-  padding-top: 130px;
-  padding-bottom: 60px;
+  padding-top: 220px;
+  padding-bottom: 270px;
   display: block;
   text-align: center;
 }
@@ -62,13 +62,13 @@ div {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5em;
   color: #9857e2;
   font-family: 'Roboto Slab', serif;
 }
 
 a {
-  font-size: 2em;
+  font-size: 1.5em;
   padding-bottom: 10px;
   color: rgb(4, 8, 238);
 
