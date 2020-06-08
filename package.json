@@ -1,0 +1,23 @@
+{
+  "name": "web-dev-resources",
+  "version": "1.0.0",
+  "description": "This is a simple landing page with navigation to: \r a sign up form to receive Jack Stiles' favorite Web Development courses and other resources, \r a featured articles section with useful, clickable Web developer links,\r a section with a few words of incouragement for aspiring Web developers,\r a clickable email link to allow visitors to contact me (assuming they have mail handling set up on the client side).",
+  "main": "index.js",
+  "dependencies": {
+    "websocket-extensions": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstiles1/Web-Developer-Resources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstiles1/Web-Developer-Resources/issues"
+  },
+  "homepage": "https://github.com/jstiles1/Web-Developer-Resources#readme"
+}
